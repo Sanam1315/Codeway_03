@@ -109,15 +109,3 @@ tl.from("#p4-left img", {
         scrub: 2,
     }
 })
-tl.from("#page4 footer", {
-    y: 30,
-    opacity: 0,
-    duration: 0.3,
-    scrollTrigger: {
-        trigger: "#page4 footer",
-        scroller: "#main",
-        start: "top 97%",
-        end: "top 97%",
-        scrub:2
-    }
-})
